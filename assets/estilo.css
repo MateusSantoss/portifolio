@@ -1,0 +1,54 @@
+
+
+body {
+	background: linear-gradient(to right, rgba(0, 8, 0, 1), rgba(41, 8, 0, 1), rgba(0, 0, 41, 1));
+}
+
+header {
+
+    background: whitesmoke;
+    opacity: 0.3;
+    border-radius: 20px;
+	height: 200px;
+	box-shadow: 10px 10px;
+}
+
+header h1 {
+	color: #E9C4C4;
+}
+
+header p {
+	font-style: italic;
+}
+
+.card {
+	margin: 10px 10px;
+	
+	
+	
+
+
+}
+
+
+
+body section .card img.card-img-top {
+	height: 250px;
+}
+
+.card {
+	height: 200px;
+	padding: 10px;
+}
+#img-superior {
+	width: 100px;
+	height: 100px;
+
+}
+
+#img-superior img {
+	border-radius: 100px;
+	height: 90px;
+	width: 90px;
+}
+

@@ -2,6 +2,8 @@
 
 body {
 	color: white;
+	font-family: 'Roboto', sans-serif;
+
 	background: linear-gradient(to left, rgba(52, 0, 93, 0.3), rgba(79, 96, 217, 0.9));
 }
 
@@ -12,14 +14,17 @@ header {
     border-radius: 20 ;
 	
 	box-shadow: 5px 5px;
+	margin-bottom: 10px;
 }
 
 header h1 {
 	/*color: #E9C4C4;*/
+
 }
 
 header p {
 	font-style: italic;
+	
 }
 
 .card {
@@ -57,9 +62,33 @@ body section .card img.card-img-top {
 	color: white;
 	font-style: italic;
 	margin-top: 10px;
+
 }
 
  div.icones img {
   width: 30px;
   height: 30px;
 }
+
+@media (max-width: 730px) {
+	
+	body {
+		width: 100%;
+	}
+
+	footer h5 {
+		width: 100%;
+	}
+
+	#apresentacao {
+		width: 30%;
+		margin: 0 auto;
+	}
+
+	.card {
+		margin: 10px auto;
+	}
+
+	
+}
+

@@ -1,20 +1,21 @@
 
 
 body {
-	background: linear-gradient(to right, rgba(0, 8, 0, 1), rgba(41, 8, 0, 1), rgba(0, 0, 41, 1));
+	color: white;
+	background: linear-gradient(to left, rgba(52, 0, 93, 0.3), rgba(79, 96, 217, 0.9));
 }
 
 header {
 
-    background: whitesmoke;
-    opacity: 0.3;
-    border-radius: 20px;
-	height: 200px;
-	box-shadow: 10px 10px;
+    background: linear-gradient(to left, blue, violet);
+    
+    border-radius: 20 ;
+	
+	box-shadow: 5px 5px;
 }
 
 header h1 {
-	color: #E9C4C4;
+	/*color: #E9C4C4;*/
 }
 
 header p {
@@ -52,3 +53,13 @@ body section .card img.card-img-top {
 	width: 90px;
 }
 
+#apresentacao {
+	color: white;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+ div.icones img {
+  width: 30px;
+  height: 30px;
+}
